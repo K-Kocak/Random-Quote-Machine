@@ -1,8 +1,21 @@
-# Getting Started with Create React App
+# Random Quote Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Displays a random quote and who said it from an API, with a button to get new quotes and to tweet the quote. 
 
-## Available Scripts
+## Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Functionality and Screenshots](#functionality-and-screenshots)
+- [Credits](#credits)
+
+## Features
+
+- View quotes said by famous figures around the world.
+- Get a new quote at the press of a button.
+- Tweet the quote that is displayed.
+
+## Installation
 
 In the project directory, you can run:
 
@@ -39,32 +52,26 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Functionality and Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*Random Quote Machine Examples*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![quote](./docs/readme/a_quote.png)
 
-### Code Splitting
+![quote2](./docs/readme/a_quote2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Two examples of quotes. By clicking the "New Quote" button, various colours will change together for each new quote.
+- The quotes are grabbed from a json, and clicking new quote will randomly pick one of these quotes alongside who said the quote.
+- The quote with the person who said it, can be tweeted with the tweet button.
+- Each time a new quote is grabbed, the background color of the website will change, as well as the text colours and the colour of the buttons.
 
-### Analyzing the Bundle Size
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Tools
 
-### Making a Progressive Web App
+- JavaScript
+- React
+- SCSS
+- HTML
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back to Top](#contents)
