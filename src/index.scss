@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #333;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	width: 100vw;
+}
+
+#quote-box {
+	display: table;
+	border-radius: 15px;
+	text-align: center;
+	position: relative;
+	width: 450px;
+	padding: 40px 50px;
+	font-weight: 600;
+	font-size: 1.3rem;
+	clear: both;
+	background-color: white;
+}
+
+#quote-box .quote-text {
+	text-align: center;
+	width: 450px;
+	height: auto;
+	clear: both;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+#quote-box .quote-author {
+	text-align: right;
+	padding-top: 18px;
+	height: auto;
+	width: 450px;
+	font-size: 1.2rem;
+	clear: both;
+}
+
+#quote-box .buttons {
+	width: 450px;
+	display: block;
+	margin: auto;
+}
+
+#quote-box .buttons .button {
+	border: none;
+	border-radius: 3px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 38px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	margin-top: 30px;
+	padding: 8px 18px 6px 18px;
+	text-decoration: none;
+	font-size: 1rem;
+	background-color: #333;
+}
+
+#quote-box .buttons .button#tweet-quote {
+	float: left;
+	padding: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	
+}
+
+#quote-box .buttons .button#new-quote {
+	float: right;
+	height: 30px;
+	width: 90px;
+	padding: 0px;
+}
+
+.footer {
+	width: 450px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	margin: 15px auto 30px auto;
+	font-size: 1.2rem;
+}
+
+.footer > a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+}
