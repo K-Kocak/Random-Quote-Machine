@@ -60,7 +60,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ![quote2](./docs/readme/a_quote2.png)
 
-Two examples of quotes. By clicking the "New Quote" button, various colours will change together for each new quote.
+Two example quotes.
 - The quotes are grabbed from a json, and clicking new quote will randomly pick one of these quotes alongside who said the quote.
 - The quote with the person who said it, can be tweeted with the tweet button.
 - Each time a new quote is grabbed, the background color of the website will change, as well as the text colours and the colour of the buttons.
